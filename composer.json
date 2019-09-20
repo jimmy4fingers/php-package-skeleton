@@ -1,0 +1,11 @@
+{
+    "name": "jamesl/php-package-skeleton",
+    "description": "project skeleton for creating PHP packages.",
+    "type": "project",
+    "require": {
+        "jimmy4fingers/php-coding-standards": "1.0.1"
+    },
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/jimmy4fingers/php-coding-standards" }
+    ]
+}
