@@ -1,5 +1,5 @@
 {
-    "name": "jamesl/php-package-skeleton",
+    "name": "jimmy4fingers/php-package-skeleton",
     "description": "project skeleton for creating PHP packages.",
     "type": "project",
     "require": {
