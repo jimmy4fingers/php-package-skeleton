@@ -2,6 +2,7 @@
     "name": "jimmy4fingers/php-package-skeleton",
     "description": "project skeleton for creating PHP packages.",
     "type": "project",
+    "minimum-stability": "dev",
     "require": {
         "jimmy4fingers/php-coding-standards": "1.0.1"
     },
