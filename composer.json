@@ -3,10 +3,20 @@
     "description": "project skeleton for creating PHP packages.",
     "type": "project",
     "minimum-stability": "dev",
-    "require": {
+    "require-dev": {
         "jimmy4fingers/php-coding-standards": "1.0.1"
     },
     "repositories": [
         { "type": "vcs", "url": "https://github.com/jimmy4fingers/php-coding-standards" }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "ProjectNamespace\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ProjectNamespace\\Tests": "tests"
+        }
+    }
 }
