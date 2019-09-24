@@ -3,6 +3,7 @@
     "description": "project skeleton for creating PHP packages.",
     "type": "project",
     "minimum-stability": "dev",
+    "license": "MIT",
     "require-dev": {
         "jimmy4fingers/php-coding-standards": "1.1.1",
         "jimmy4fingers/php-testing-library": "1.0.0"
