@@ -4,10 +4,12 @@
     "type": "project",
     "minimum-stability": "dev",
     "require-dev": {
-        "jimmy4fingers/php-coding-standards": "1.0.1"
+        "jimmy4fingers/php-coding-standards": "1.1.1",
+        "jimmy4fingers/php-testing-library": "0.1.0"
     },
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/jimmy4fingers/php-coding-standards" }
+        { "type": "vcs", "url": "https://github.com/jimmy4fingers/php-coding-standards" },
+        { "type": "vcs", "url": "https://github.com/jimmy4fingers/php-testing-library" }
     ],
     "autoload": {
         "psr-4": {
@@ -16,7 +18,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "ProjectNamespace\\Tests": "tests"
+            "ProjectNamespace\\Tests\\": "tests"
         }
     }
 }
